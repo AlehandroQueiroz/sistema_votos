@@ -1,0 +1,25 @@
+{
+    "name": "eleitor/sistema_de_votos",
+    "description": "",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "App/",
+            "Core\\": "Core/"
+        },
+        "files": [
+            "Core/confiq.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Alehandro Queiroz",
+            "email": "alehandroqueiroz.13@gmail.com"
+        }
+    
+    ],
+    "require": {
+        "ext-pdo": "*",
+        "ext-json": "*"
+      }
+}
