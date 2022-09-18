@@ -16,15 +16,15 @@
 bg-white" style="max-width: 700px;display: flex; align-items: center; flex-direction: column;">
 
         <div>
-            <h2>Relatorio de Votação</h2>
+            <h2>Relatório de Votação</h2>
             <table class="table">
                 <thead>
                     <tr>
                         <th scope="col">Id</th>
-                        <th scope="col">None</th>
+                        <th scope="col">Nome</th>
                         <th scope="col">CPF</th>
                         <th scope="col">Idade</th>
-                        <th scope="col">Cod_Candidato</th>
+                        <th scope="col">Nº_Candidato</th>
                         <th scope="col">Data</th>
                     </tr>
                 </thead>
@@ -43,7 +43,7 @@ bg-white" style="max-width: 700px;display: flex; align-items: center; flex-direc
                 </tbody>
             </table>
             <div style="display:flex; align-items: flex-end; flex-direction: column">
-                <h4>Total de votos <?php echo $count?></h4>
+                <h4>Total de Votos: <?php echo $count?></h4>
             </div>
             <a href="http://localhost/sistema_de_votos/">Voltar</a>
         </div>

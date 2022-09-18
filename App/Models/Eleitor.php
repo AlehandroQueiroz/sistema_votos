@@ -5,8 +5,7 @@ namespace App\Models;
 use Core\DataLayer\DataLayer;
 use DateTime;
 use Exception;
-
-class Eleitor extends DataLayer
+ class Eleitor extends DataLayer
 {
 
     public function __construct()

@@ -74,12 +74,12 @@ bg-white" style="max-width: 700px;display: flex; align-items: center; flex-direc
             </div>
 
             <div class="d-grid mb-4">
-                <input type="submit" value="Voltar" class="btn 
+                <input type="submit" value="VOTAR" class="btn 
         btn-primary btn-lg">
             </div>
         </form>
 
-        <a href="http://localhost/sistema_de_votos/result">Ver relatorio</a>
+        <a href="http://localhost/sistema_de_votos/result">Visualizar Relatório</a>
 
 
     </div>
